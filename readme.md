@@ -68,3 +68,9 @@ Try to answer the following questions:
 4. Once you are logged into a level, why don't you have to give the `-p` flag to log into another level?
 
 # HAPPY HACKING!!!
+PASSWORD 1 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+PASSWORD 2 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+PASSWORD 3 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+PASSWORD 4 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+PASSWORD 5 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+PASSWORD 6 
