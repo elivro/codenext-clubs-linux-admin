@@ -68,11 +68,16 @@ Try to answer the following questions:
 4. Once you are logged into a level, why don't you have to give the `-p` flag to log into another level?
 
 # HAPPY HACKING!!!
-PASSWORD 1 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
-PASSWORD 2 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
-PASSWORD 3 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
-PASSWORD 4 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
-PASSWORD 5 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
-PASSWORD 6 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
-PASSWORD 7 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
-PASSWORD 8 cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+PASSWORD 1 boJ9jbbUNNfktd78OOpsqOltutMc3MY1        cat readme
+PASSWORD 2 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9        cat ./-
+PASSWORD 3 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK        cat spaces\ in\ this\ filename  (use tab to autocomplete)
+PASSWORD 4 pIwrPrtPN36QITSp3EQaw936yaFoFgAB        cd ./inhere and then cat./.hidden
+PASSWORD 5 koReBOKuIDDepwhWk7jZC0RTdopnAYKh        cat ./-file07
+PASSWORD 6 DXjZPULLxYr17uwoI01bNLQbtFemEgo7        find -size 1033c and then cat ./inhere/maybehere07/.file2
+PASSWORD 7 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs        find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null or and then cat /var/lib/dpkg/info/bandit7.password
+PASSWORD 8 cvX2JJa4CFALtqS87jk27qwqGhBM9plV        cat data.txt | grep "millionth" or grep "millionth" data.txt
+PASSWORD 9 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR        cat data.txt | sort | uniq -u 
+PASSWORD 10 truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk        strings data.txt | grep"="
+PASSWORD 11 IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR        base64 -d data.txt
+PASSWORD 12 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu        echo "Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+PASSWORD 13 
