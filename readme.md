@@ -80,4 +80,6 @@ PASSWORD 9 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR        cat data.txt | sort | uniq -u
 PASSWORD 10 truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk        strings data.txt | grep"="
 PASSWORD 11 IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR        base64 -d data.txt
 PASSWORD 12 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu        echo "Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-PASSWORD 13 
+PASSWORD 13  8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL       mkdir /tmp/jn  cp data.txt /tmp /jn    xxd -r ./data.txt data.out  mv data.out data.gz  gunzip data.gz mv data data.tar tar -xf data.tar  tar -xf data5.bin tar -xf data6.bin tar -xf data8.bin  
+PASSWORD 14 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e     ssh -i  sshkey.private bandit14@localhost  cat /etc/bandit_pass/bandit14
+PASSWORD 15 
