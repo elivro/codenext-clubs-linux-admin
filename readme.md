@@ -84,7 +84,7 @@ PASSWORD 13  8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL       mkdir /tmp/jn  cp data.txt /
 PASSWORD 14 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e     ssh -i  sshkey.private bandit14@localhost  cat /etc/bandit_pass/bandit14
 PASSWORD 15 BfMYroe26WYalil77FoDi9qh59eK5xNr        nc localhost 30000 or telnet localhost 30000
 PASSWORD 16 cluFn7wTiGryunymYOu4RcffSxQluehd     openssl s_client -connect localhost:30001 -ign_eof
-PASSWORD 17 Private Key                          nmap localhost -p 31000-32000  openssl s_client -connect localhost:31790
+PASSWORD 17 Private Key                          nmap localhost -p 31000-32000  openssl s_client -connect localhost:31790   mkdir /tmp/passwordword cd /tmp/passwordword touch key.private chmod 600 key.private ssh -i key.private bandit17@localhost 
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
 imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
@@ -112,3 +112,7 @@ YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
 dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
+
+PASSWORD 18 kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd                diff passwords.old passwords.new  
+PASSWORD 19 IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x                ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme  
+PASSWORD 20 GbKksEFF4yrVs6il55v6gwY5aVje5f0j                ./bandit20-do cat /etc/bandit_pass/bandit20
