@@ -116,3 +116,4 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 PASSWORD 18 kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd                diff passwords.old passwords.new  
 PASSWORD 19 IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x                ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme  
 PASSWORD 20 GbKksEFF4yrVs6il55v6gwY5aVje5f0j                ./bandit20-do cat /etc/bandit_pass/bandit20
+PASSWORD 21 
